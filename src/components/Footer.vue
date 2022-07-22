@@ -10,13 +10,13 @@ export default {
 </script>
 <style>
     footer {
-        width: 100%;
-        height: 8vh;
-        background-color: #0b5154;
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        height: 8vh;     
         color: white;
+        background-color: #0b5154; 
     }
 
     footer p {

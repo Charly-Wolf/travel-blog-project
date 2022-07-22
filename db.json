@@ -1,0 +1,16 @@
+{
+    "trips": [
+        {
+            "id": 1,
+            "name": "Germany"
+        },
+        {
+            "id": 2,
+            "name": "Denmark"
+        },
+        {
+            "id": 3,
+            "name": "Sweden"
+        }
+    ]
+}

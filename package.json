@@ -4,10 +4,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 5050"
+    "preview": "vite preview --port 5050",
+    "server": "json-server -p 3006 -w db.json"
   },
   "dependencies": {
     "@vue/composition-api": "^1.4.6",
+    "axios": "^0.27.2",
     "vue": "^2.6.14",
     "vue-router": "^3.5.3"
   },

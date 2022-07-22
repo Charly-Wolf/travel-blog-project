@@ -2,7 +2,9 @@
     <header>
             <h1>Travel Blog</h1>
             <nav class="nav-menu">
-                <ul class="nav-items">
+                <template v-if="toggleMenu">
+                    <div>
+                        <ul class="nav-items">
                     <li class="nav-link">
                         <a href="">Home</a>
                     </li>
@@ -16,12 +18,26 @@
                         <a href="">Contact</a>
                     </li>
                 </ul>
+                    </div>
+                </template>
+                <template v-else>
+                    <div>
+                        
+                    </div>
+                </template>
+                <button @click="toggleMenu = !toggleMenu">
+                    Click here
+                </button>
             </nav>
     </header>
 </template>
 <script>
 export default {
-    
+    data() {
+        return {
+            toggleMenu: false
+        }
+    }
 }
 </script>
 <style>
